@@ -41,8 +41,6 @@ class GameWonScene: SKScene {
         restartButton.zPosition = 2
         restartButton.position = CGPoint(x: size.width/2, y: size.height*0.3)
         addChild(restartButton)
-        
-        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
